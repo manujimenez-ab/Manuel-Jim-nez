@@ -28,18 +28,43 @@
 <aside>
     Menú lateral
 </aside>
-
+<article>
 <section>
     <article>
-        <p> Lorem <i>ipsum dolor</i>sit <sub>amet</sub>  <sup>consectetur</sup> <b>adipisicing</b>&nbsp;elit. Vitae, consequatur?</p>
+        <p id="parrafo2"> Lorem <i>ipsum dolor</i>sit <sub>amet</sub>  <sup>consectetur</sup> <b>adipisicing</b>&nbsp;elit. Vitae, consequatur?</p>
+        <hr
         <p> <strong><i>elit</i> Lorem</strong> ipsum dolor sit <s>amet consectetur,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; adipisicing</s> . &copy; <u>Odio, a!</u></p>
 
     </article>
-</section>
 
+    <ol type="a" start="7">
+            <li>Batir los huevos</li>
+            <li>Echarle harina  </li>
+            <li>Freir</li>
+    </ol>
+
+    <ul>
+        <li>Harina</li>
+        <li>Pan </li>
+        <li>Huevo</li>
+    </ul>
+</section>
+<!-- mostrar imágenes por prioridad, si la primera se puede mostrar se muestra sino pasa a la siguiente -->
+<picture> 
+    <source media="(min-width: 700px)"srcset="./imagenes/españa.jpg" />
+    <source media="(min-width: 400px) and (max-width: 700px)"srcset="./imagenes/morante.jpg" />
+    <source media="(min-width: 150px)" srcset="./imagenes/betis.png" />
+    <img src="./imagenes/betis.png"/>
+</picture>
+
+
+<p>Lorem <a href="#parrafo2" target="blank"> ipsum </a>  dolor sit amet consectetur adipisicing elit. Vitae, consequatur?</p>
+</article>
 <footer>
 Teléfono: 955 00 00 00
 </footer>
+
+<!-- <img align="center" src="./imagenes/morante.jpg" alt="texto alternativo" width="300" height="200"> -->
 
 </body>
 </html>
