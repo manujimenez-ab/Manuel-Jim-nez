@@ -1,0 +1,27 @@
+/* Coemntario */
+/* @import "general.css";
+@front-face {
+    front-family: ;
+    src: url();
+} */
+ /* Selector E */
+h1 {
+    color: red;
+    background-color: aquamarine;
+}
+
+p{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Selector E.e*/
+h2.azul {
+    color:blue;
+}
+
+/* Selector E#e */
+
+h2#e2 {
+    font-style: italic;
+}
