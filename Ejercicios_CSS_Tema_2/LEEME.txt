@@ -1,0 +1,6 @@
+Ejercicios CSS - Tema 2
+
+Cada carpeta ejercicioXX contiene ejercicio.html y estilos.css.
+Abre el HTML con el navegador. Mantén ambos archivos juntos.
+
+Nota: ejercicios 15 y 19-26 hacen referencia a archivos HTML base o capturas que no venían como archivos separados. Se incluyen ejemplos completos aproximados para practicar las propiedades mencionadas. Personaliza los datos del CV (ejercicio 27).

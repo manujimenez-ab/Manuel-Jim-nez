@@ -1,0 +1,7 @@
+table { 
+    background: lightgray;
+    margin-bottom: 20px; 
+    border-collapse: collapse;
+}th, td { 
+    border: 1px solid gray;
+    padding: 8px; }
