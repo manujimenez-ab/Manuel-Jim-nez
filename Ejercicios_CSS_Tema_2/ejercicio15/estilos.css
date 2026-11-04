@@ -1,1 +1,74 @@
-body{font-family:Georgia,serif} main{max-width:630px;margin:20px auto;padding:8px;background:white;box-shadow:3px 4px 5px #999}h1{color:green}h2{color:blue}p{font-size:16px}.rojo{color:red;font-weight:bold}.naranja{color:#d87800}.subrayado{text-decoration:underline;color:red}.rosa{color:magenta;font-style:italic}table{border-collapse:collapse;color:#444}th,td{border:1px solid #777;padding:3px}caption{color:blue}th{color:orange}td:first-child{color:#e66}td:not(:first-child){color:green}
+
+body {
+    font-family: "Times New Roman";
+    margin: 20px;
+}
+
+h1 {
+    color: green;
+    text-shadow: 2px 2px red;
+    font-size: 40px;
+}
+
+h2 {
+    color: blue;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.rojo-negrita {
+    color: red;
+    font-weight: bold;
+}
+
+.naranja {
+    color: orange;
+}
+
+.rojo-subrayado {
+    color: red;
+    text-decoration: underline;
+}
+
+.rojo-italica {
+    color: blue;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.morado {
+    color: violet;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Arial;
+    font-size: 22px;
+}
+
+caption {
+    color: blue;
+    font-size: 22px;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 3px;
+}
+
+.verde {
+    color: green;
+    text-align: center;
+}
+
+.rojo {
+    color: red;
+}
+
+td i {
+    font-size: 16px;
+    font-style: italic;
+}
